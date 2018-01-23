@@ -1,0 +1,14 @@
+{ version: '1.0',
+  defaultSchema: 'school',
+  schemas: [
+    {
+      type: 'custom',
+      name: 'school',
+      factory: 'com.free.calcite.model.MemorySchemaFactory',
+      operand: {
+        param1: 'hello',
+        param2: 'world'
+      }
+    }
+  ]
+}
